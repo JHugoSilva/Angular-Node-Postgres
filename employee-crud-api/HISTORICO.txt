@@ -1,2 +1,3 @@
 npm i --save-dev husky nodemon
 npm i cors dotenv express express-promise-router pg
+npm i eslint-friendly-formatter

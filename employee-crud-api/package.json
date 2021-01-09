@@ -2,13 +2,29 @@
   "name": "employee-crud-api",
   "version": "1.0.0",
   "description": "Aplicação CRUD API em Node.js",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "lint": "eslint --ext .js, .html -f ./node_modules/eslint-friendly-formatter . --fix",
+    "prepush": "npm run lint",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nodejs",
+    "api",
+    "crud",
+    "azure-functions",
+    "express",
+    "github-actions",
+    "swa",
+    "serverless",
+    "azure",
+    "postgresql",
+    "sql",
+    "javascript"
+  ],
+  "author": "Hugo Silva",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^7.17.0",
     "husky": "^4.3.7",
